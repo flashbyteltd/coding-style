@@ -1,0 +1,16 @@
+{
+    "name": "flashbyteltd/coding-style",
+    "description": "Sets up common coding styles for all Flash Byte Ltd projects",
+    "type": "library",
+    "bin": "coding-style-init",
+    "require": {
+        "laravel/pint": "^1.10"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "James King",
+            "email": "james@flashbyte.ltd"
+        }
+    ]
+}

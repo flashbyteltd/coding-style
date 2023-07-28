@@ -1,0 +1,4 @@
+#!/bin/bash
+rm -f pint.json
+composer config scripts.cs "vendor/bin/pint --config vendor/flashbyteltd/coding-style/pint.json"
+composer config scripts.cstest "vendor/bin/pint --test --config vendor/flashbyteltd/coding-style/pint.json"
