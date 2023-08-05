@@ -10,20 +10,20 @@ Note: There should not be a `pint.json` in your project.
 
 1. Install this composer package into the project:
 ```bash
-$ composer require --dev flashbyteltd/coding-style
+composer require --dev flashbyteltd/coding-style
 ```
 
 2. Run the `coding-style-init` script:
 ```bash
-$ vendor/bin/coding-style-init
+vendor/bin/coding-style-init
 ```
 
 3. Run Pint in dry run mode to test it is working correctly:
 ```bash
-$ composer cstest
+composer cstest
 ```
 
 4. Run Pint to test it is working correctly (this will update your PHP files):
 ```bash
-$ composer cs
+composer cs
 ```
