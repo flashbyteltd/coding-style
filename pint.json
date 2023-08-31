@@ -154,6 +154,7 @@
         "ordered_imports": {
             "sort_algorithm": "alpha"
         },
+        "ordered_interfaces": true,
         "ordered_traits": true,
         "php_unit_construct": true,
         "php_unit_method_casing": {
