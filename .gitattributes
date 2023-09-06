@@ -3,4 +3,5 @@
 *.md diff=markdown
 *.php diff=php
 
+/.devcontainer export-ignore
 /.github export-ignore
