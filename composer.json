@@ -10,7 +10,7 @@
         }
     ],
     "require": {
-        "laravel/pint": "^1.10"
+        "laravel/pint": "1.13.0"
     },
     "bin": "coding-style-init",
     "config": {
